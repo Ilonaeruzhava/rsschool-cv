@@ -1,1 +1,61 @@
-css style
+.wrapper {
+    display: grid;
+    grid-template-areas: 
+    'navbar navbar navbar'
+    'side header header'
+    'side main main'
+    'side  main main'
+    'footer footer footer';
+    margin: 0;
+    padding: 0;
+  text-align:justify;
+ }
+
+ .nav-bar {
+    grid-area: navbar;
+    color:rgb(15, 11, 55);
+    display: flex;
+    justify-content: Space-around;
+    background-color:rgb(151, 238, 193);
+    padding: 10px 10px 10px 10px;
+}
+
+.header {
+    grid-area: header;
+    color:rgb(112, 121, 117);
+    background-color:cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 1% 2% 2%;
+}
+
+.header img {
+    border-radius: 50%;
+}
+
+ .wrapper-main {
+    grid-area: main;
+     background-color:#ADEFD1FF; 
+     color: #00203FFF;
+     padding: 10px 20px 10px 20px;
+ }
+ 
+ 
+ .wrapper-side-bar {
+    grid-area: side;
+     background-color: rgb(75, 105, 134);
+     color: #ADEFD1FF;
+     padding: 10px 10px 10px 10px;
+     
+
+ }
+ 
+ .footer {
+    grid-area: footer;
+    background-color: rgb(112, 121, 117);
+    color:rgb(151, 238, 193);
+    display: flex;
+    justify-content: space-evenly;
+ }
+ 
