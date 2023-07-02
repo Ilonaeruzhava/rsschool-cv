@@ -88,6 +88,7 @@ International Relations/World Economy
 ---
 ### **Languages**
 1 Russian - native
+
 2 English - C1-C2
 ![English](english.png)
 3 German A2-B1
