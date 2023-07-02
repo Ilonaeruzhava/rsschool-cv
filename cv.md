@@ -12,7 +12,7 @@
 ### **Skills:**
 * Planning the process of testing
 * Performing tests (Front-end, Back-end)
-* Making documentation: Checklists, Test-cases, Test-suits 
+* Creating documentation: Checklists, Test-cases, Test-suits, Bug Reports 
 * DB testing (noSQL)
 
 ### **Tools:**
@@ -23,17 +23,38 @@
 * Postman, Fiddler
 * Figma (Pixel Perfect)
 * Pairwise composing tool/creation of different files
+* BrowserStack
+* VirtualBox
+* MongoDB, MySQL
 
-### **Technical knowledge**
+### **Technical knowledge:**
 * Networking
 * SDLC/STLC
 * Techniques of test design
-* Rest API 
+* Client-server Architecture 
 * HTML, CSS, basics of JS
-* DB 
+* DB (SQL, noSQL)
+* Git
 ---
 ### **Experience**
+#### **Technical Support**
+Yandex *July 2023*
 
+Resolving tecnhical issues of customers.
+#### **QA engineer**
+Educational Platform *January - May 2023*
+
+Responsible for creating a test plan. Performing different types of tests (regression, integration, smoke). Locating the bug and reporting it using BTS. 
+
+
+#### **Specilist in importing data**
+Unum *July - Decemberr 2022*
+
+Working with Big Data. Using the CRM system to import data. 
+
+#### **QA intern**
+A1QA *February - July 2022* 
+Working on different projects. Using different tools to perform tasks. 
 
 ---
 ### **Code Example**
@@ -60,10 +81,15 @@ else{
 ### **About me**
 ---
 ### **Education**
+*Belarusian State University* 2008-2011
+
+International Relations/World Economy
+
 ---
 ### **Languages**
-1 English - C1-C2
+1 Russian - native
+2 English - C1-C2
 ![English](english.png)
-2 German A2-B1
+3 German A2-B1
 ![German](german.jpg)
-3 Spanish A2
+4 Spanish A2
