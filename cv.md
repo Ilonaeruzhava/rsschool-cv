@@ -50,12 +50,13 @@ Responsible for creating a test plan. Performing different types of tests (regre
 
 
 #### **Specilist in importing data**
-Unum *July - Decemberr 2022*
+Unum *July - December 2022*
 
 Working with Big Data. Using the CRM system to import data. 
 
 #### **QA intern**
 A1QA *February - July 2022* 
+
 Working on different projects. Using different tools to perform tasks. 
 
 ---
