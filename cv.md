@@ -39,25 +39,33 @@
 ---
 ### **Experience**
 
-#### **Technical Support**
-Yandex *July 2023*
+>#### **Technical Support**
+>Yandex *July 2023*
+>
+>Resolving tecnhical issues of customers.
 
-Resolving tecnhical issues of customers.
-#### **QA engineer**
-Educational Platform *January - May 2023*
+>#### **QA engineer**
+>Educational Platform *January - May 2023*
+>
+>Responsible for creating a test plan. Performing different types of tests (regression, integration, smoke). Locating the bug and reporting it using BTS. Communicating with development team in order to solve issues and improve the product. 
 
-Responsible for creating a test plan. Performing different types of tests (regression, integration, smoke). Locating the bug and reporting it using BTS. 
+
+>#### **Specilist in importing data**
+>Unum *July - December 2022*
+>
+>Working with Big Data. Using the CRM system to import data. 
 
 
-#### **Specilist in importing data**
-Unum *July - December 2022*
+>#### **QA intern**
+>A1QA *February - July 2022* 
+>
+>Working on different projects. Using different tools to perform tasks. 
 
-Working with Big Data. Using the CRM system to import data. 
-
-#### **QA intern**
-A1QA *February - July 2022* 
-
-Working on different projects. Using different tools to perform tasks. 
+>#### **Team waitress**
+>Carnival Cruise Lines *2013-2021*
+>
+>
+>Working in USA and being able to practice English on daily basis. 
 
 ---
 ### **Code Example**
@@ -82,6 +90,9 @@ else{
 ```
 ---
 ### **About me**
+
+
+
 ---
 ### **Education**
 *Belarusian State University* 2008-2011
