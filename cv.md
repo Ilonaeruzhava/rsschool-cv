@@ -54,6 +54,7 @@
 >- Reported all blockers/critical issues before release to the production
 >- Created a detailed documentation on the product, which increased the test coverage for each run
 >- Implemented right test design techniques which helped in finding critical issues in business logic and made the product load faster by 7 seconds
+>- Analyzed the product with exploratory testing and suggested tooltips at certain places to raise the satisfaction of the product with the customer
 
 
 >#### **Specialist in importing data**
@@ -68,13 +69,13 @@
 >#### **QA intern**
 >A1QA *February - July 2022* 
 >
->- Working on different projects: desktop, web. Using different tools to perform testing on separate modules. Creating documentation. 
+>- Working on different projects: desktop, web. Using different tools to perform testing on separate modules. Creating documentation for each tested module. 
 
 >#### **Team waitress**
 >Carnival Cruise Lines *2013-2021*
 >
 >
->Working in USA and being able to practice English on daily basis. 
+>- Working in USA and being able to practice English on daily basis. 
 
 ---
 ### **Code Example**
