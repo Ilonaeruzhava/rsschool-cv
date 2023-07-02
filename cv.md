@@ -33,10 +33,12 @@
 * Techniques of test design
 * Client-server Architecture 
 * HTML, CSS, basics of JS
+* GIt
 * DB (SQL, noSQL)
-* Git
+
 ---
 ### **Experience**
+
 #### **Technical Support**
 Yandex *July 2023*
 
