@@ -1,7 +1,9 @@
 # CV - Ilona Eruzhava 
 
 ## Quality Assurance Engineer
-#### *Manual Functional testing*
+#### *Manual Functional Testing*   
+9 months of experience   
+
 ---
 ### **Contacts:**
 #### *Location:* Minsk, Belarus
@@ -12,8 +14,9 @@
 ### **Skills:**
 * Planning the process of testing
 * Performing tests (Front-end, Back-end)
-* Creating documentation: Checklists, Test-cases, Test-suits, Bug Reports 
-* DB testing (noSQL)
+* Creating documentation: Checklists, Test-cases, Test-suits, Bug Reports
+* DB testing (noSQL, MySQL)
+* Communicating with development team, in order to solve issues and improve the product
 
 ### **Tools:**
 * ClickUp, Trello, Jira, Bugzilla
@@ -33,7 +36,7 @@
 * Techniques of test design
 * Client-server Architecture 
 * HTML, CSS, basics of JS
-* GIt
+* GIt, Github
 * DB (SQL, noSQL)
 
 ---
@@ -42,24 +45,30 @@
 >#### **Technical Support**
 >Yandex *July 2023*
 >
->Resolving tecnhical issues of customers.
+>- Resolving tecnhical issues of customers
+
 
 >#### **QA engineer**
 >Educational Platform *January - May 2023*
 >
->Responsible for creating a test plan. Performing different types of tests (regression, integration, smoke). Locating the bug and reporting it using BTS. Communicating with development team in order to solve issues and improve the product. 
+>- Reported all blockers/critical issues before release to the production
+>- Created a detailed documentation on the product, which increased the test coverage for each run
+>- Implemented right test design techniques which helped in finding critical issues in business logic and made the product load faster by 7 seconds
 
 
->#### **Specilist in importing data**
+>#### **Specialist in importing data**
 >Unum *July - December 2022*
 >
->Working with Big Data. Using the CRM system to import data. 
+>- Working with Big Data. 
+>- Using the CRM system to import data. 
+>- Suggesting the usage of extra column for additional settings which led to importing 22% more of usefull data
+>- Being in top 3 most productive employees
 
 
 >#### **QA intern**
 >A1QA *February - July 2022* 
 >
->Working on different projects. Using different tools to perform tasks. 
+>- Working on different projects: desktop, web. Using different tools to perform testing on separate modules. Creating documentation. 
 
 >#### **Team waitress**
 >Carnival Cruise Lines *2013-2021*
@@ -69,9 +78,11 @@
 
 ---
 ### **Code Example**
-Программа, которая принимает с клавиатуры 2 пары целых ненулевых чисел, первая пара - числитель и знаменатель одной дроби: вторая пара - числитель и знаменатель другой дроби. Программа проверяет равны ли эти дроби друг другу и выводит на экран соответсвующее текстовое сообщение
+Program that allows input from keyboard of 2 pairs of positive numbers for fractions. First pair - first numerator and denomenator; second pair - second numerator and denominator. Program checks, whether the fractions are equal to each other and displays corresponding messaage.
+
+>Программа, которая принимает с клавиатуры 2 пары целых ненулевых чисел, первая пара - числитель и знаменатель одной дроби: вторая пара - числитель и знаменатель другой дроби. Программа проверяет равны ли эти дроби друг другу и выводит на экран соответсвующее текстовое сообщение
 ```
-*let FirstChislitel =+prompt("First Chislitel", "");
+let FirstChislitel=+prompt("First Chislitel", "");
 let FirstZnamenatel=+prompt("First znamenatel", "");
 let SecondChislitel=+prompt("Second Chislitel", "");
 let SecondZnamenatel=+prompt("Second znamenatel","");
@@ -86,7 +97,7 @@ else if (FirstChislitel/FirstZnamenatel==SecondChislitel/SecondZnamenatel){
 
 else{
   alert("not equal");
-}*
+}
 ```
 ---
 ### **About me**
