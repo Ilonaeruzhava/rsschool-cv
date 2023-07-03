@@ -19,7 +19,7 @@
 * Communicating with development team, in order to solve issues and improve the product
 
 ### **Tools:**
-* ClickUp, Trello, Jira, Bugzilla
+* ClickUp, Trello, Jira, Bugzilla, Redmine
 * Qase, Confluence, Google sheets, Excel
 * Devtools
 * Swagger 
@@ -46,6 +46,7 @@
 >Yandex *July 2023*
 >
 >- Resolving tecnhical issues of customers
+>- Updating Documentation
 
 
 >#### **QA engineer**
@@ -54,7 +55,7 @@
 >- Reported all blockers/critical issues before release to the production
 >- Created a detailed documentation on the product, which increased the test coverage for each run
 >- Implemented right test design techniques which helped in finding critical issues in business logic and made the product load faster by 7 seconds
->- Analyzed the product with exploratory testing and suggested tooltips at certain places to raise the satisfaction of the product with the customer
+>- Analyzed the product with exploratory testing and suggested tooltips at some modules to help user navigate the app better which led in rising the satisfaction of the product with the customer
 
 
 >#### **Specialist in importing data**
@@ -63,13 +64,13 @@
 >- Working with Big Data. 
 >- Using the CRM system to import data. 
 >- Suggesting the usage of extra column for additional settings which led to importing 22% more of usefull data
->- Being in top 3 most productive employees
+>- Being in top 3 most productive employees 
 
 
 >#### **QA intern**
 >A1QA *February - July 2022* 
 >
->- Working on different projects: desktop, web. Using different tools to perform testing on separate modules. Creating documentation for each tested module. 
+>- Working on different projects: desktop, web. Using such tools as Devtools, Fiddler to perform testing on separate modules. Creating documentation for each tested module. 
 
 >#### **Team waitress**
 >Carnival Cruise Lines *2013-2021*
@@ -84,9 +85,7 @@ Program that allows input from keyboard of 2 pairs of positive numbers for fract
 >Программа, которая принимает с клавиатуры 2 пары целых ненулевых чисел, первая пара - числитель и знаменатель одной дроби: вторая пара - числитель и знаменатель другой дроби. Программа проверяет равны ли эти дроби друг другу и выводит на экран соответсвующее текстовое сообщение
 
 
-
-
-   ```
+```
 let FirstChislitel=+prompt("First Chislitel", "");
 let FirstZnamenatel=+prompt("First znamenatel", "");
 let SecondChislitel=+prompt("Second Chislitel", "");
@@ -105,8 +104,14 @@ else{
 }
 ```
 ---
-### **About me**
+### **About me**  
 
+I have been specializing in manual functional testing and have 9 months of experience in it. In the past, I have worked on a couple of projects: desktop and web applications, while also performing cross-browser and cross-platform testing.   
+
+I am very proficient in writing test cases, documenting, and defect reporting. The most intresting part of testing for me - finding the "Bottle-necks" of application and creating good test cases, using the appropriate test design technique.  
+
+
+Recently, I have started learning JavaScript to be able to perform automation on future projects using Selenium. I am keen on utilizing more tools to increase the speed of test runs for each iteration and give more test coverage for the product. 
 
 
 ---
