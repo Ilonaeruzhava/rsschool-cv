@@ -1,0 +1,130 @@
+/* playfair-display-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/playfair-display-v30-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* playfair-display-italic - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/playfair-display-v30-cyrillic_latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* playfair-display-600 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/playfair-display-v30-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* playfair-display-600italic - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/playfair-display-v30-cyrillic_latin-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* playfair-display-900italic - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 900;
+    src: url('../fonts/playfair-display-v30-cyrillic_latin-900italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* raleway-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway-v28-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* raleway-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/raleway-v28-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* raleway-600italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/raleway-v28-latin-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* raleway-800italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 800;
+    src: url('../fonts/raleway-v28-latin-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+
+*, *::before, *::after {
+box-sizing: inherit;
+}
+
+body {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+}
+
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Playfair Display;
+    font-weight: 900;
+    font-style: italic;
+}
+
+li:hover {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 150%;
+    color: rgb(56, 66, 91);
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.header_list {
+    display: inline-flex;
+}
+
+li.header_list {
+    margin-right: 40px;
+}
+
+li.header_list:last-child {
+    margin-right: 0px;
+}
