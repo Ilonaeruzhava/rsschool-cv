@@ -3,37 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./assets/img/Favicon.png">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+
     <title>CV Ilona</title>
 </head>
 
 <body>
+    <div class="picture_wrapper">
         <div class="wrapper">
-
             <header class="header_wrapper">
-               <div class="header_picture">
-                <h1>Eruzhava Ilona</h1>
-                   <img id="header_picture" src="./assets/img/header_photo.jpg" alt="profile picture">
-               </div>
+
                <div class="header_nav">
                    <nav class="wrapper_nav_top">
                        <ul class="nav_list">
-                           <li class="nav_item" id="skills">Skills</li>
-                           <li class="nav_item" id="experience">Experience</li>
-                           <li class="nav_item" id="about_me">About Me</li>
-                           <li class="nav_item" id="projects">Projects</li>
-                           <li class="nav_item" id="code_example">Code Example</li>
+                           <li class="nav_item"><a href="#skills">Skills</a></li>
+                           <li class="nav_item"><a href="#experience">Experience</a></li>
+                           <li class="nav_item"><a href="#about_me">About Me</a></li>
+                           <li class="nav_item"><a href="#projects">Projects</a></li>
+                           <li class="nav_item"><a href="#code_example">Code Example</a></li>
                        </ul>
                    </nav>
                </div>
             </header>
 
             <main class="main_wrapper">
-                <div class="main_intro">
-                    <section class="skills"></section>
+                <div class="side_menu">
+                    <aside class="nav_side_menu">
+                        <ul class="nav_side_menu_list">
+                            <li class="nav_side_menu_item">Location</li>
+                            <li class="nav_side_menu_item">Contacts</li>
+                            <li class="nav_side_menu_item">Languages</li>
+                            <li class="nav_side_menu_item">Education</li>
+                            <li class="nav_side_menu_item">Courses</li>
+                        </ul>
+                    </aside>
                 </div>
+
+                <div class="main_sections">
+
+                    <section class="skills"><h3 id="skills">Skills</h3></section>
+
+                    <section class="experience"><h3 id="experience">Experience</h3></section>
+                    <section class="about_me"><h3 id="about_me">About Me</h3></section>
+                    <section class="projects"><h3 id="projects">Projects</h3></section>
+                    <section class="code_example"><h3 id="code_example">Code Example</h3></section>
+                </div>
+
            </main>
+
+
+           <div class="footer_wrapper">
+            <footer class="footer">
+                <img src="/assets/img/rs_logo.svg" alt="logo" id="footer_logo">
+            </footer>
+           </div>
+        </div>
+
+    </div>
 </body>
 </html>
