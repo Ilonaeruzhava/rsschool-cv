@@ -163,7 +163,7 @@ body {
 
   .background_picture {
     height: 100vh;
-    background: url("/assets/img/main_header.jpg") no-repeat center;
+    background: url("./assets/img/main_header.jpg") no-repeat center;
     background-size: cover;
   }
   /*body style ends*/
@@ -232,6 +232,7 @@ padding: 10px;
 .nav_item {
   display: inline;
   padding-right: 16px;
+  justify-self: flex-end;
 }
 
 .nav_item:last-child {
@@ -242,7 +243,7 @@ li {
   transition: 1s ease-in;
 }
 
-li:hover {
+.nav_item li:hover {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-size: 150%;
@@ -251,7 +252,7 @@ li:hover {
   text-decoration-color: rgb(223, 213, 17);
 }
 
-li:active {
+.nav_item li:active {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 200%;
