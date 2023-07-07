@@ -147,7 +147,6 @@
 /*body styles starts*/
   html {
     box-sizing: border-box;
-    scroll-behavior: smooth;
   }
 
 *, *::before, *::after {
@@ -162,9 +161,9 @@ body {
     color: black;
   }
 
-  .picture_wrapper {
+  .background_picture {
     height: 100vh;
-    background: url("/assets/img/header1.jpg"), no-repeat;
+    background: url("/assets/img/main_header.jpg") no-repeat center;
     background-size: cover;
   }
   /*body style ends*/
@@ -188,14 +187,18 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 50px;
 }
 h3 {
-  font-size: 34px;
+  font-size: 38px;
 }
 
 h4 {
-  font-size: 26px;
+  font-size: 30px;
+}
+
+h5, h6 {
+  font-size: 24px;
 }
 .header_wrapper {
   display: flex;
@@ -203,15 +206,7 @@ h4 {
   justify-content: space-between;
 }
 
-.title_wrapper {
-  display: block;
-}
-
-.header_subtitle {
-  margin-left: 350px;
-}
-
-.header_title {
+.header_picture {
   display: flex;
   align-items: center;
   padding-top: 16px;
@@ -224,28 +219,30 @@ height: 200px;
 padding: 10px;
 }
 
+.header_subtitle {
+  display: flex;
+  flex-direction: row;
+}
 /*Navigation menu at top start*/
+
 .wrapper_nav_top {
   justify-content: flex-end;
 }
-.nav_list a {
-  text-decoration: none;
-  color:rgba(121, 125, 137, 0.722);
-  padding-right: 16px;
-}
+
 .nav_item {
   display: inline;
+  padding-right: 16px;
 }
 
 .nav_item:last-child {
   padding-right: 0px;
 }
 
-.nav_list li {
+li {
   transition: 1s ease-in;
 }
 
-.nav_list li:hover {
+li:hover {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-size: 150%;
@@ -254,7 +251,7 @@ padding: 10px;
   text-decoration-color: rgb(223, 213, 17);
 }
 
-.nav_list li:active {
+li:active {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 200%;
@@ -269,6 +266,9 @@ padding: 10px;
 /*intro style ends*/
 /*main styles ends*/
 
-/*footer style starts*/
 
+/*footer style starts*/
+#footer_logo {
+  height: 28px;
+}
 /*footer style ends*/
