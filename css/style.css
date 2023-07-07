@@ -70,61 +70,6 @@
     font-weight: 800;
     src: url('../fonts/raleway-v28-latin-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
-
-  html {
-    box-sizing: border-box;
-  }
-
-*, *::before, *::after {
-box-sizing: inherit;
-}
-
-body {
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: normal;
-    color: black;
-}
-
-.header_wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: Playfair Display;
-    font-weight: 900;
-    font-style: italic;
-}
-
-li:hover {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 150%;
-    color: rgb(56, 66, 91);
-}
-
-h1 {
-    font-size: xx-large;
-}
-
-.wrapper {
-    max-width: 1060px;
-    margin: 0 auto;
-    margin-top: 2%;
-}
-
-.header_list {
-    display: inline-flex;
-}
-
-li.header_list {
-    margin-right: 40px;
-}
-/*fonts styles start*/
 /* playfair-display-regular - cyrillic_latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -199,7 +144,7 @@ li.header_list {
   }
   /*font style ends*/
 
-/*header styles starts*/
+/*body styles starts*/
   html {
     box-sizing: border-box;
   }
@@ -214,71 +159,102 @@ body {
     font-weight: normal;
     font-style: normal;
     color: black;
-}
-
-.header_wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: space-between;
-    color: rgb(34, 34, 34);
   }
+  /*body style ends*/
 
-
-#avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  padding: 5px;
-  margin-left: 6em;
+/*header styles starts*/
+.wrapper {
+  max-width: 1260px;
+  margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Playfair Display;
+    font-family: 'Playfair Display';
     font-weight: 900;
     font-style: italic;
 }
 
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 4em;
+}
+h3 {
+  font-size: 3em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+h5, h6 {
+  font-size: 1em;
+}
+
+.header_picture {
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+}
+
+#header_picture {
+border-radius: 50%;
+width: 200px;
+height: 200px;
+padding: 10px;
+}
+
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*Navigation menu at top start*/
+
+.wrapper_nav_top {
+  justify-content: flex-end;
+}
+
+.nav_item {
+  display: inline;
+  padding-right: 16px;
+}
+
+.nav_item:last-child {
+  padding-right: 0px;
+}
+
+li {
+  transition: 1s ease-in;
+}
+
 li:hover {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 150%;
+  color: rgb(56, 66, 91);
+  text-decoration: underline;
+  text-decoration-color: rgb(223, 213, 17);
+}
+
+li:active {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    font-size: 150%;
-    color: rgba(77, 69, 88, 0.808);
-}
-
-h1 {
-    font-size: xx-large;
-}
-.header {
-  position: fixed;
-}
-
-.wrapper {
-    max-width: 1060px;
-    margin: 0 auto;
-}
-
-.header_list {
-    display: inline-flex;
-}
-
-li.header_list {
-    margin-right: 40px;
-}
-
-li.header_list:last-child {
-    margin-right: 0px;
-}
-
+    font-size: 200%;
+    color: rgb(56, 66, 91);
+  }
+/*Navigation menu at top ends*/
 /*header styles ends*/
 
-
-
-/*intro styles starts*/
-.intro {
+/*main styles starts*/
+/*intro style starts*/
+.main_intro {
   height: 100vh;
-  background-image: url("../assets/img/3304503.jpg");
-  background-repeat: no-repeat;
+  background-image: url("../assets/img/header.jpg") no-repeat center;
   background-size: cover;
-
 }
+/*intro style ends*/
+/*main styles ends*/
