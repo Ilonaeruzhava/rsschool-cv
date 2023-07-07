@@ -233,17 +233,26 @@ padding: 10px;
   display: inline;
   padding-right: 16px;
   justify-self: flex-end;
+  color: cadetblue;
+  text-decoration: none;
+}
+
+.nav_link a {
+  text-decoration: none;
+
 }
 
 .nav_item:last-child {
   padding-right: 0px;
 }
 
-li {
+a {
   transition: 1s ease-in;
+  text-decoration: none;
+  color:rgb(71, 71, 70)
 }
 
-.nav_item li:hover {
+.nav_item a:hover {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-size: 150%;
@@ -252,7 +261,7 @@ li {
   text-decoration-color: rgb(223, 213, 17);
 }
 
-.nav_item li:active {
+.nav_item a:active {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 200%;
@@ -269,6 +278,10 @@ li {
 
 
 /*footer style starts*/
+.footer {
+  height: 40px;
+}
+
 #footer_logo {
   height: 28px;
 }
