@@ -163,7 +163,7 @@ body {
 
   .background_picture {
     height: 100vh;
-    background: url("./assets/img/main_header.jpg") no-repeat center;
+    background: url("../assets/img/main_header.jpg") no-repeat center;
     background-size: cover;
   }
   /*body style ends*/
