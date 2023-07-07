@@ -253,7 +253,7 @@ li:active {
 /*intro style starts*/
 .main_intro {
   height: 100vh;
-  background-image: url("../assets/img/header.jpg") no-repeat center;
+  background-image: url("./assets/img/header.jpg") no-repeat center;
   background-size: cover;
 }
 /*intro style ends*/
