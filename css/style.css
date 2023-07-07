@@ -147,6 +147,7 @@
 /*body styles starts*/
   html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
 
 *, *::before, *::after {
@@ -193,7 +194,22 @@ h5, h6 {
   font-size: 1em;
 }
 
-.header_picture {
+
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title_wrapper {
+  display: block;
+}
+
+.header_subtitle {
+  margin-left: 400px;
+}
+
+.header_title {
   display: flex;
   align-items: center;
   padding-top: 16px;
@@ -206,32 +222,28 @@ height: 200px;
 padding: 10px;
 }
 
-.header_wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 /*Navigation menu at top start*/
-
 .wrapper_nav_top {
   justify-content: flex-end;
 }
-
+.nav_list a {
+  text-decoration: none;
+  color:rgba(121, 125, 137, 0.722);
+  padding-right: 16px;
+}
 .nav_item {
   display: inline;
-  padding-right: 16px;
 }
 
 .nav_item:last-child {
   padding-right: 0px;
 }
 
-li {
+.nav_list li {
   transition: 1s ease-in;
 }
 
-li:hover {
+.nav_list li:hover {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-size: 150%;
@@ -240,7 +252,7 @@ li:hover {
   text-decoration-color: rgb(223, 213, 17);
 }
 
-li:active {
+.nav_list li:active {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 200%;
@@ -251,10 +263,15 @@ li:active {
 
 /*main styles starts*/
 /*intro style starts*/
-.main_intro {
+
+.main_wrapper {
   height: 100vh;
-  background-image: url("assets/img/header.jpg") no-repeat center;
+  background: url("/assets/img/main_pic.jpg"), no-repeat;
   background-size: cover;
 }
+
+
+
 /*intro style ends*/
+
 /*main styles ends*/
