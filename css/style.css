@@ -229,16 +229,25 @@ border: 1px solid #ff7f50;
 /*Navigation menu at top start*/
 
 .wrapper_nav_top {
+  display: flex;
   justify-content: flex-end;
   align-items: center;
   justify-content: space-around;
 }
 
+.nav_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+
 .nav_item {
   display: inline;
-  padding-right: 16px;
+  padding-right: 19px;
   justify-self: flex-end;
   text-decoration: none;
+  padding-top: 15px;
+
 }
 
 .nav_link a {
@@ -275,9 +284,25 @@ a {
 /*header styles ends*/
 
 /*Aside style start*/
+.aside {
+  max-width: 220px;
+  flex-grow: 1;
+}
 
 .aside li {
   margin: 15px;
+}
+
+.aside a {
+  color: rgb(195, 174, 77);
+  transition: 1s ease-in;
+}
+
+.aside a:hover, a:active {
+  font-family: 'Courier New', Courier, monospace;
+  color: #6d6800;
+  font-size: 130%;
+  background-color: rgba(174, 171, 171, 0.356);
 }
 
 .aside li:last-child {
@@ -293,14 +318,26 @@ a {
   height: 28px;
   padding-right: 5px;
 }
-
-
 /*Aside style ends*/
 
 /*main styles starts*/
-/*intro style starts*/
 
-/*intro style ends*/
+.main_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 55px;
+}
+.main_intro {
+  align-items: stretch;
+  flex-grow: 5;
+}
+
+.main_sections {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 5;
+}
+
 /*main styles ends*/
 
 
@@ -321,7 +358,6 @@ a {
   height: 56px;
   justify-self: center;
 }
-
 
 #footer_logo {
   height: 28px;
