@@ -289,9 +289,16 @@ a {
 
 
 /*footer style starts*/
-.footer {
-  height: 40px;
+.footer_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 56px;
 }
+#footer_gh_logo {
+  height: 56px; 
+}
+
 
 #footer_logo {
   height: 28px;
