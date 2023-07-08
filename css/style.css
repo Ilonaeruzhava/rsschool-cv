@@ -224,11 +224,14 @@ border: 1px solid coral;
 
 .header_subtitle {
   display: flex;
+  padding-left: 330px;
 }
 /*Navigation menu at top start*/
 
 .wrapper_nav_top {
   justify-content: flex-end;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .nav_item {
@@ -270,6 +273,13 @@ a {
   }
 /*Navigation menu at top ends*/
 /*header styles ends*/
+
+/*Aside style start*/
+.aside li {
+  margin: 15px;
+  padding-bottom: 15px;
+}
+/*Aside style ends*/
 
 /*main styles starts*/
 /*intro style starts*/
