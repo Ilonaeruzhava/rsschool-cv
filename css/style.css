@@ -265,7 +265,7 @@ h5, h6 {
     padding-top: 250px;
     }
 
-    .main_title {;
+    .main_title {
         flex-wrap: wrap;
     }
     .title_picture {
@@ -327,7 +327,6 @@ padding-bottom: 40px;
 }
 .competition_card ul {
     list-style-type: disc;
-    list-style-image: ;
 }
 .competition_card li:first-child {
     list-style-type: none;
