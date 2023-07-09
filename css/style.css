@@ -387,9 +387,11 @@ padding-bottom: 40px;
     text-align: center;
     padding-top: 100px;
 }
+.experience_wrapper {
+  margin-left: 40px;
+}
 .experience_wrapper p {
 text-align: justify;
-
 }
 /*experience style end*/
 
@@ -403,6 +405,14 @@ text-align: justify;
 
 .about_me p {
 text-align: justify;
+width: 900px;
+}
+
+.intro_about_me {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 /*about me style ends*/
 
@@ -412,6 +422,27 @@ text-align: justify;
     margin-top: 100px;
     padding-bottom: 100px;
 }
+
+.project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 55px;
+}
+.project_card {
+height: 340px;
+width: 340px;
+background-color: #6161615b;
+border-radius: 10%;
+grid-column: span 1;
+padding-bottom: 40px;
+text-align: center;
+}
+#project_card_1 {
+  height: 200px;
+  width: 200px;
+  padding-top: 70px;
+}
+
 /*project style ends*/
 
 /*code example starts*/
