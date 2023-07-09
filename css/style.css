@@ -437,10 +437,22 @@ grid-column: span 1;
 padding-bottom: 40px;
 text-align: center;
 }
+
+.project_card p {
+padding-top: 25px;
+padding-left: 10px;
+padding-right: 10px;
+}
 #project_card_1 {
   height: 200px;
   width: 200px;
   padding-top: 70px;
+  transition: 1s;
+  border-radius: 10%;
+}
+
+#project_card_1:hover {
+transform: scale(4);
 }
 
 /*project style ends*/
@@ -480,5 +492,13 @@ text-align: center;
 
       #footer_logo {
         height: 28px;
+      }
+
+      .footer_svg {
+        transition: 1s;
+      }
+      .footer_svg:hover {
+        background-color: #6d67002f;
+        border-radius: 50%;
       }
     /*footer style end*/
