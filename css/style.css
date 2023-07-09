@@ -153,9 +153,13 @@
 box-sizing: inherit;
 }
 
+p {
+  padding-top: 8px;
+}
+
 body {
     font-family: Raleway;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
     font-style: normal;
     color: black;
@@ -197,10 +201,12 @@ h3 {
 
 h4 {
   font-size: 30px;
+  padding-top: 15px;
 }
 
 h5, h6 {
   font-size: 24px;
+  padding-top: 25px;
 }
 .header_wrapper {
   display: flex;
@@ -289,6 +295,10 @@ a {
   flex-grow: 1;
 }
 
+.aside_wrapper {
+  position: sticky;
+}
+
 .aside li {
   margin: 15px;
 }
@@ -324,21 +334,43 @@ a {
 
 .main_wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   padding-top: 55px;
 }
 .main_intro {
+  display: flex;
   align-items: stretch;
   flex-grow: 5;
+  justify-items: center;
 }
 
 .main_sections {
   display: flex;
   flex-direction: column;
+  align-items: center;
   flex-grow: 5;
 }
 
+/*sections styles starts*/
+section {
+  padding-bottom: 100px;
+}
+
+.main_sections h3 {
+  padding-bottom: 50px;
+}
+
+
+.competition_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/*section styles ends*/
+
 /*main styles ends*/
+
 
 
 /*footer style starts*/
