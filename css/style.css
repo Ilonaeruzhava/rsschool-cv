@@ -159,6 +159,7 @@ p {
 body {
     font-family: Raleway;
     font-size: 20px;
+    line-height: 1.5;
     font-weight: normal;
     font-style: normal;
     text-align: justify;
@@ -309,16 +310,18 @@ h5, h6 {
 }
 
 .competitions_card {
+  padding-left: 70px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 55px;
 }
+.competition_card:last-child {
+  padding-right: 0px;
+}
+
 .competition_card {
 grid-column: span 1;
 padding-bottom: 40px;
-}
-.competition_card:first-child {
-    padding-left: 40px;
 }
 
 .competitions ul {
@@ -382,6 +385,8 @@ padding-bottom: 40px;
     height: 100vh;
     background: url("../assets/img/experience.webp") no-repeat center;
     background-size: cover;
+    height: fit-content;
+    padding-bottom: 100px;
 }
 #experience {
     text-align: center;
@@ -418,6 +423,7 @@ width: 900px;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  height: fit-content;
 }
 /*about me style ends*/
 
@@ -426,6 +432,7 @@ width: 900px;
   background: url("../assets/img/white.jpg") no-repeat center;
   background-size: cover;
   height: 100vh;
+  height: fit-content;
 }
 #projects {
     text-align: center;
