@@ -153,9 +153,13 @@
 box-sizing: inherit;
 }
 
+p {
+  padding-top: 8px;
+}
+
 body {
     font-family: Raleway;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
     font-style: normal;
     color: black;
@@ -174,6 +178,7 @@ body {
   margin: 0 auto;
   border-left: 1px solid;
   border-right: 1px solid;
+  padding: 15px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -184,6 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 64px;
+  padding-right: 10px;
 }
 
 h2 {
@@ -195,10 +201,12 @@ h3 {
 
 h4 {
   font-size: 30px;
+  padding-top: 15px;
 }
 
 h5, h6 {
   font-size: 24px;
+  padding-top: 25px;
 }
 .header_wrapper {
   display: flex;
@@ -217,42 +225,62 @@ border-radius: 50%;
 width: 200px;
 height: 200px;
 padding: 10px;
+border: 1px solid #ff7f50;
 }
 
 .header_subtitle {
   display: flex;
-  flex-direction: row;
+  padding-left: 330px;
 }
 /*Navigation menu at top start*/
 
 .wrapper_nav_top {
+  display: flex;
   justify-content: flex-end;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
 }
 
 .nav_item {
   display: inline;
-  padding-right: 16px;
+  padding-right: 19px;
   justify-self: flex-end;
+  text-decoration: none;
+  padding-top: 15px;
+
+}
+
+.nav_link a {
+  text-decoration: none;
+
 }
 
 .nav_item:last-child {
   padding-right: 0px;
 }
 
-li {
+a {
   transition: 1s ease-in;
+  text-decoration: none;
+  color:rgb(71, 71, 70)
 }
 
-.nav_item li:hover {
+.nav_item a:hover {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-size: 150%;
   color: rgb(56, 66, 91);
   text-decoration: underline;
-  text-decoration-color: rgb(223, 213, 17);
+  text-decoration-color: #dfd511;
 }
 
-.nav_item li:active {
+.nav_item a:active {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 200%;
@@ -261,14 +289,108 @@ li {
 /*Navigation menu at top ends*/
 /*header styles ends*/
 
-/*main styles starts*/
-/*intro style starts*/
+/*Aside style start*/
+.aside {
+  max-width: 220px;
+  flex-grow: 1;
+}
 
-/*intro style ends*/
+.aside_wrapper {
+  position: sticky;
+}
+
+.aside li {
+  margin: 15px;
+}
+
+.aside a {
+  color: rgb(195, 174, 77);
+  transition: 1s ease-in;
+}
+
+.aside a:hover, a:active {
+  font-family: 'Courier New', Courier, monospace;
+  color: #6d6800;
+  font-size: 130%;
+  background-color: rgba(174, 171, 171, 0.356);
+}
+
+.aside li:last-child {
+  padding-bottom: 25px;
+}
+
+.aside_nav_item li {
+  display: flex;
+  align-items: center;
+}
+
+.social_logo {
+  height: 28px;
+  padding-right: 5px;
+}
+/*Aside style ends*/
+
+/*main styles starts*/
+
+.main_wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-top: 55px;
+}
+.main_intro {
+  display: flex;
+  align-items: stretch;
+  flex-grow: 5;
+  justify-items: center;
+}
+
+.main_sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 5;
+}
+
+/*sections styles starts*/
+section {
+  padding-bottom: 100px;
+}
+
+.main_sections h3 {
+  padding-bottom: 50px;
+}
+
+
+.competition_list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/*section styles ends*/
+
 /*main styles ends*/
 
 
+
 /*footer style starts*/
+.footer_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  height: 56px;
+  margin-top: 56px;
+}
+
+.footer_link {
+  size: 80px;
+}
+
+#footer_gh_logo {
+  height: 56px;
+  justify-self: center;
+}
+
 #footer_logo {
   height: 28px;
 }
