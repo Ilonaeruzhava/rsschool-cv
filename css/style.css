@@ -359,12 +359,20 @@ padding-bottom: 40px;
     transition: 1s ease-in;
   }
 
-  .aside a:hover, a:active {
+  .aside a:hover {
     font-family: 'Courier New', Courier, monospace;
     color: #6d6800;
     font-size: 130%;
     background-color: rgba(174, 171, 171, 0.356);
   }
+
+  a:active {
+    font-family: 'Courier New', Courier, monospace;
+    color: #373625;
+    font-size: 130%;
+    background-color: rgba(174, 171, 171, 0.356);
+  }
+
 
   .aside li:last-child {
     padding-bottom: 25px;
